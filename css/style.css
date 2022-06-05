@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*------------------HEADER-------------*/
+.navbar .navbar-nav .nav-item {
+  position: relative; }
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: "";
+  background-color: #FF5959;
+  width: 0%;
+  height: 2px;
+  transition: all .5s; }
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%; }
+
+.dropdown:hover .dropdown-menu,
+.btn-group:hover .dropdown-menu {
+  display: block; }
+
+.dropdown-menu {
+  margin: auto; }
+
+.dropdown-toggle {
+  margin: auto; }
+
+.navbar .dropdown-toggle,
+.nav-tabs .dropdown-toggle {
+  margin: auto; }
+
+/*------------------CARDS-------------*/
+.inner {
+  overflow: hidden; }
+
+.inner img {
+  transition: 1.5s; }
+
+.inner:hover img {
+  transform: scale(1.2); }

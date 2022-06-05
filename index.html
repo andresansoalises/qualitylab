@@ -17,8 +17,8 @@
  <body>
    <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-secundary">
-        <div class="container-md">
-          <a class="navbar-brand" href="#"><img class="encabezado_logo" src="images/logo.png" alt="logo sitio"></a>
+        <div class="container-md p-5">
+          <a class="navbar-brand" href="#"><img class="encabezado_logo" src="images/logolab.jpg" width="200" alt="logo sitio"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@
                 <a class="nav-link active fw-bold fs-4" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fw-bold fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-current="page">
+                <a class="nav-link active dropdown-toggle fw-bold fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-current="page">
                   SERVICIOS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,17 +48,17 @@
       </nav>
      </header>
          <!-- banner carrusel -->
- <div class="container">
+ <div class="container-fluid">
          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-               <img src="images/laboratorio.jpg" class="d-block w-100" alt="...">
+               <img src="images/laboratorio.jpg" class="d-block img-fluid" alt="...">
              </div>
              <div class="carousel-item">
-              <img src="images/3.jpg" class="d-block w-100" alt="...">
+              <img src="images/baner4.jpeg" class="d-block img-fluid" alt="...">
              </div>
              <div class="carousel-item">
-              <img src="images/baner2.jpg" class="d-block w-100" alt="...">
+              <img src="images/baner2.jpg" class="d-block img-fluid" alt="...">
              </div>
            </div>
            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -70,52 +70,67 @@
             <span class="visually-hidden">Next</span>
            </button>
          </div>
-      <!-- inicio sección noticias --> 
-      <section class="noticias">
-        <h2>Noticias</h2>
-      </section>
-      <div class="container">
+  </div>
+  <div class="box1">
+    <div class="card mb-3 mx-5 style="max-width: 500px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/bioquimica.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Seminarios virtuales</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+      <!-- inicio sección noticias -->
+      <div class="container mt-5 pt-5 mb-5">
+        <h1 class="display-6 mb-3">Noticias</h1>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="images/secuenciador.jpg" class="card-img-top" alt="seuenciador">
+          <div class="card border-light mb-3">
+            <div class="inner">
+              <img src="images/secuenciador.jpg" class="card-img-top " alt="secuenciador">
+            </div>
             <div class="card-body">
-              <h3 class="card-title">Nuevo secuenciador de ADN</h3>
-              <p class="card-text">Se trata del analizador genético SeqStudio, equipo que aumenta la capacidad para procesar pruebas de paternidad, identificación y muestras para el Registro Nacional de ADN. La secuenciación genética es una tecnología que permite conocer y descifrar el código genético que tienen todos los seres vivos.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <small class="text-muted">19 de abril de 2022</small>
+              <p class="card-text">Analizador genético SeqStudio, equipo que aumenta la capacidad para procesar pruebas de paternidad, identificación y muestras para el Registro Nacional de ADN.</p>
             </div>
           </div>
         </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
+            <div class="card border-light mb-3">
+              <div class="inner">
             <img src="images/citometro.jpg" class="card-img-top" alt="citometro">
+              </div>
             <div class="card-body">
-              <h3 class="card-title">Citometría de flujo</h3>
-              <p class="card-text">Actualmente, a través de la implementación de citometría de flujo de “nueva generación” (Next generation flow) se ha logrado la detección de células neoplásicas con tanta sensibilidad, que las mismas pueden ser analizadas en sangre periférica (SP) de pacientes con Mieloma Múltiple. Así también, para la evaluación </p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <small class="text-muted">19 de abril de 2022</small>
+              <p class="card-text">Implementación de citometría de flujo de “nueva generación” (Next generation flow) para la detección de células neoplásicas con alta sensibilidad.</p>
             </div>
           </div>
         </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
+            <div class="card border-light mb-3">
+              <div class="inner">
             <img src="images/vitD.jpg" class="card-img-top" alt="vitD">
+          </div>
             <div class="card-body">
-              <h3 class="card-title">Medición de Vitamina D</h3>
-              <p class="card-text">El examen de 25-hidroxi vitamina D es la forma más exacta de medir cuánta vitamina D hay en el cuerpo. La vitamina D ayuda a controlar los niveles de calcio y fosfato en el cuerpo. Forma en que se realiza el examen. Se necesita una muestra de sangre. Se dispone de dos métodos, a partir de los cuales se puede obterner.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <small class="text-muted">19 de abril de 2022</small>
+              <p class="card-text">El examen de 25-hidroxi vitamina D es la forma más exacta de medir cuánta vitamina D hay en el cuerpo. La vitamina D ayuda a controlar los niveles de calcio y fosfato en el cuerpo.</p>
             </div>
           </div>
         </div>
         </div>
       </div>
-      
-      <div class="tecnologia">
-        <h2>Nuestra tecnología</h2>
-        <div class="container mt-5">
-          <iframe src="https://www.youtube.com/embed/Slaa8o1ZYoo" title="YouTube video"></iframe>
+      <div class="container p-5">
+        <a href="#" class="text-decoration-none">
+          <h2 class="display-7 mb-3">Ver más noticias ></h2>
+        </a>
       </div>
-        </div>
-      </div> 
          <!-- inicio footer -->     
            <footer class="pie">
                <img class="encabezado_logo" src="images/logo.png" alt="logo sitio">
