@@ -1,0 +1,19 @@
+.box {
+    height: 200px;
+    background-color: beige;
+}
+
+.box_texto {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.box1{
+    height: 300px;
+    background-image: linear-gradient(to right, #676fa3, white) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }

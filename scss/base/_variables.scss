@@ -1,0 +1,14 @@
+$color-primario: #FF5959;
+$color-secundario: #676fa3;
+$color-terciario: #cddeff;
+
+html {
+    font-size: 62.5%; }
+  
+  @font-face {
+    font-family: Heebo;
+    src: url("../fonts/Heebo.ttf"); }
+  
+  body {
+    font-family: Heebo;
+    font-size: 15px; }
